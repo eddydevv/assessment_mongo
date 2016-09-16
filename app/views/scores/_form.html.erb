@@ -1,0 +1,15 @@
+<%= simple_form_for(@score) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :number %>
+    <%= f.association :template_layout %>
+    <%= f.association :rubric %>
+    <%= f.association :user %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

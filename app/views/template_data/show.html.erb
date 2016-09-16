@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @template_datum.data %>
+</p>
+
+<p>
+  <strong>Template sublayout:</strong>
+  <%= @template_datum.template_sublayout %>
+</p>
+
+<%= link_to 'Edit', edit_template_datum_path(@template_datum) %> |
+<%= link_to 'Back', template_data_path %>

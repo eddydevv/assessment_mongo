@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @assessment_plan.name %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @assessment_plan.year %>
+</p>
+
+<p>
+  <strong>Assessment unit:</strong>
+  <%= @assessment_plan.assessment_unit %>
+</p>
+
+<%= link_to 'Edit', edit_assessment_plan_path(@assessment_plan) %> |
+<%= link_to 'Back', assessment_plans_path %>

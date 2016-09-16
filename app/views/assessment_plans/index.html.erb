@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Assessment Plans</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Year</th>
+      <th>Assessment unit</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @assessment_plans.each do |assessment_plan| %>
+      <tr>
+        <td><%= assessment_plan.name %></td>
+        <td><%= assessment_plan.year %></td>
+        <td><%= assessment_plan.assessment_unit %></td>
+        <td><%= link_to 'Show', assessment_plan %></td>
+        <td><%= link_to 'Edit', edit_assessment_plan_path(assessment_plan) %></td>
+        <td><%= link_to 'Destroy', assessment_plan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Assessment Plan', new_assessment_plan_path %>

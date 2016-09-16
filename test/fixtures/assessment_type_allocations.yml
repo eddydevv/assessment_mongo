@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment: MyString
+  assessment_type: one
+  user: one
+
+two:
+  comment: MyString
+  assessment_type: two
+  user: two

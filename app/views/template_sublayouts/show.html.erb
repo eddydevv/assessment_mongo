@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @template_sublayout.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @template_sublayout.description %>
+</p>
+
+<p>
+  <strong>Section num:</strong>
+  <%= @template_sublayout.section_num %>
+</p>
+
+<p>
+  <strong>Input type:</strong>
+  <%= @template_sublayout.input_type %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @template_sublayout.year %>
+</p>
+
+<%= link_to 'Edit', edit_template_sublayout_path(@template_sublayout) %> |
+<%= link_to 'Back', template_sublayouts_path %>

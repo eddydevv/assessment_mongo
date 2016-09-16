@@ -1,0 +1,1 @@
+json.partial! "template_sublayouts/template_sublayout", template_sublayout: @template_sublayout

@@ -1,0 +1,1 @@
+json.array! @template_sublayouts, partial: 'template_sublayouts/template_sublayout', as: :template_sublayout

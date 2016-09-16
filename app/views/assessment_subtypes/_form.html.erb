@@ -1,0 +1,14 @@
+<%= simple_form_for(@assessment_subtype) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <%= f.association :year %>
+    <%= f.association :assessment_type %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Template Data</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Template sublayout</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @template_data.each do |template_datum| %>
+      <tr>
+        <td><%= template_datum.data %></td>
+        <td><%= template_datum.template_sublayout %></td>
+        <td><%= link_to 'Show', template_datum %></td>
+        <td><%= link_to 'Edit', edit_template_datum_path(template_datum) %></td>
+        <td><%= link_to 'Destroy', template_datum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Template Datum', new_template_datum_path %>

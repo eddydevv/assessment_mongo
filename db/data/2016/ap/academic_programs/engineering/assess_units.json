@@ -1,0 +1,11 @@
+[
+  { "name": "Chemical Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Civil Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Computer Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Computer Science", "assessment_subtype": "School of Engineering" },
+  { "name": "Construction Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Construction Management", "assessment_subtype": "School of Engineering" },
+  { "name": "Electrical Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Mechanical Engineering", "assessment_subtype": "School of Engineering" },
+  { "name": "Nuclear Engineering", "assessment_subtype": "School of Engineering" }
+]

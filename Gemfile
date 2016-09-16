@@ -11,7 +11,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'mongo'
 gem 'mongoid', github: 'mongodb/mongoid'
-gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'simple_form'                                                         ## simple form methods
 gem 'fullcalendar-rails'                                                  ## calendar
 gem 'momentjs-rails'                                                      ## datetime helper methods
@@ -28,7 +27,7 @@ gem 'mongoid-history'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem "breadcrumbs_on_rails"
 gem 'react-rails'
-
+gem "mongoid-paperclip"
 
 group :development, :test do
   gem 'minitest-rails'

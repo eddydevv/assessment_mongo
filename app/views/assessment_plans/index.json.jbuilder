@@ -1,0 +1,1 @@
+json.array! @assessment_plans, partial: 'assessment_plans/assessment_plan', as: :assessment_plan

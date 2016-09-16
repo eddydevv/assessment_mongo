@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  section_num: 1
+  input_type: MyString
+  year: one
+
+two:
+  name: MyString
+  description: MyString
+  section_num: 1
+  input_type: MyString
+  year: two
