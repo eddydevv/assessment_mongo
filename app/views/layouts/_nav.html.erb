@@ -1,6 +1,15 @@
-<nav class="ui inverted vertical pointing menu sidebar">
+<nav class="ui top fixed stackable pointing menu">
+  <%= link_to 'Assessment App', root_path, class: 'header item' %>
   <%= link_to 'Home', root_path, class: 'item' %>
   <%= link_to 'About', about_path, class: 'item' %>
   <%= link_to 'Calendar', calendar_path, class: 'item' %>
   <%= link_to 'FAQs', faqs_path, class: 'item' %>
+  <div class="right menu">
+    <div class="item">
+      <div class="ui transparent icon input">
+        <input type="text" placeholder="Search forms...">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+  </div>
 </nav>
